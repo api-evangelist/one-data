@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://onedata.ai/one-data-quality-and-information-security-standards/
+summary: >-
+  One Data publishes a company-wide quality and information-security standards page listing
+  independently audited certifications. No public API/OpenAPI exists, so cross-cutting API
+  protocol conformance (OAuth2/OIDC/RFC 9457/etc) cannot be asserted; the standards below are
+  organizational compliance certifications verified from the provider's own page.
+standards:
+- id: iso-27001
+  name: ISO/IEC 27001:2022
+  conforms: true
+  evidence: "Information Security Management System certified since 2022 per onedata.ai standards page"
+- id: iso-9001
+  name: ISO 9001:2015
+  conforms: true
+  evidence: "Quality management certification per onedata.ai standards page"
+- id: tisax
+  name: TISAX (Trusted Information Security Assessment Exchange)
+  conforms: true
+  evidence: "TISAX Scope ID SMCZWK, Participant ID P2VMPW, verifiable via ENX Portal"
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: "EU-based (Germany) provider with published privacy policy; data protection emphasized on standards page"

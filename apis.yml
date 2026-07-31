@@ -1,8 +1,25 @@
 aid: one-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-data.png
 name: One Data
-description: 'One Data is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'One Data is a German enterprise software company (onedata.ai, formerly onedata.de) whose
+  AI-native platform transforms legacy and fragmented enterprise data into trusted, governed, AI-ready
+  data products. Its capabilities span metadata management, data quality assurance, data-product
+  lifecycle management, SAP BW migration optimization, process-mining foundations, and sovereign data
+  management for public-sector organizations. One Data is certified to ISO 27001:2022, ISO 9001:2015,
+  and TISAX, and is a portfolio company of HV Capital. As of this enrichment pass One Data publishes no
+  public developer API, OpenAPI definition, developer portal, or GitHub organization — its customer
+  portal and documentation are authentication-gated.'
 url: https://raw.githubusercontent.com/api-evangelist/one-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Enterprise Software
+- Data Management
+- Data Governance
+- Data Quality
+- Data Products
+- Metadata Management
+- Enterprise AI
+- SAP
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/one-data-domain-security.yml
+- type: Website
+  url: https://onedata.ai/
+- type: Support
+  url: https://onedata.ai/support/
+- type: Blog
+  url: https://onedata.ai/newsroom/
+- type: TermsOfService
+  url: https://onedata.ai/general-terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://onedata.ai/privacy-policy/
+- type: Compliance
+  url: https://onedata.ai/one-data-quality-and-information-security-standards/
+- type: Conformance
+  url: conformance/one-data-conformance.yml
+- type: Contact
+  url: https://onedata.ai/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
